@@ -4133,7 +4133,7 @@ export const widgets = [
     component: 'Divider',
     defaultSize: {
       width: 10,
-      height: 10,
+      height: 2,
     },
     others: {
       showOnDesktop: { type: 'toggle', displayName: 'Show on desktop' },
@@ -4169,7 +4169,7 @@ export const widgets = [
       events: [],
       styles: {
         visibility: { value: '{{true}}' },
-        dividerColor: { value: '' },
+        dividerColor: { value: '#000000' },
       },
     },
   },
